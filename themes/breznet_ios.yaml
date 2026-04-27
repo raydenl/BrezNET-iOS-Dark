@@ -195,6 +195,7 @@ BrezNET iOS:
 
       # Sections
       ha-view-sections-column-gap: 8px
+      ha-view-sections-row-gap: 8px
 
       # Other
       paper-dialog-background-color: rgba(var(--system-gray5-light),1)
@@ -323,6 +324,7 @@ BrezNET iOS:
 
       # Sections
       ha-view-sections-column-gap: 8px
+      ha-view-sections-row-gap: 8px
       
       # Other
       paper-dialog-background-color: rgba(var(--system-gray5-dark),1)
