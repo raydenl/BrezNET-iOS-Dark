@@ -105,131 +105,131 @@ BrezNET iOS:
       --mdc-theme-primary: rgba(var(--system-green), 1);
       --mdc-theme-on-primary: rgba(var(--system-gray), 1);
     }
-    
-    ####################################
-    # DARK MODE
-    ####################################
-    # Core backgrounds / surfaces
-    lovelace-background: rgba(var(--system-black),1)
-    primary-background-color: rgba(var(--system-black),1)
-    secondary-background-color: rgba(var(--system-gray5-dark),1)
+  
+  ####################################
+  # DARK MODE
+  ####################################
+  # Core backgrounds / surfaces
+  lovelace-background: rgba(var(--system-black),1)
+  primary-background-color: rgba(var(--system-black),1)
+  secondary-background-color: rgba(var(--system-gray5-dark),1)
 
-    # Primary & accent
-    primary-color: rgba(var(--system-blue-dark),1)
-    accent-color: rgba(var(--system-blue-dark),1)
-    accent-hover-color: rgba(var(--system-blue-dark),0.85)
-    accent-pressed-color: rgba(var(--system-blue-dark),0.7)
+  # Primary & accent
+  primary-color: rgba(var(--system-blue-dark),1)
+  accent-color: rgba(var(--system-blue-dark),1)
+  accent-hover-color: rgba(var(--system-blue-dark),0.85)
+  accent-pressed-color: rgba(var(--system-blue-dark),0.7)
 
-    # Dividers
-    divider-color: rgba(var(--system-gray4-dark),1)
+  # Dividers
+  divider-color: rgba(var(--system-gray4-dark),1)
 
-    # Text colors
-    primary-text-color: rgba(var(--system-gray5-light),1)
-    secondary-text-color: rgba(var(--system-gray2-light),1)
-    tertiary-text-color: rgba(var(--system-gray1-light),1)
-    disabled-text-color: rgba(var(--system-gray5-dark),1)
-    text-dark-color: "#FFF"
+  # Text colors
+  primary-text-color: rgba(var(--system-gray5-light),1)
+  secondary-text-color: rgba(var(--system-gray2-light),1)
+  tertiary-text-color: rgba(var(--system-gray1-light),1)
+  disabled-text-color: rgba(var(--system-gray5-dark),1)
+  text-dark-color: "#FFF"
 
-    # App Header
-    app-header-background-color: var(--ha-card-background)
-    #app-header-text-color: var(--secondary-background-color)
+  # App Header
+  app-header-background-color: var(--ha-card-background)
+  #app-header-text-color: var(--secondary-background-color)
 
-    # Sidebar / menu
-    sidebar-background-color: var(--ha-card-background)
-    sidebar-icon-color: var(--primary-text-color)
-    sidebar-text-color: var(--primary-text-color)
-    sidebar-selected-background-color: rgba(var(--system-gray5-dark),0.8)
-    sidebar-selected-icon-color: var(--primary-color)
-    sidebar-selected-text-color: var(--primary-color)
+  # Sidebar / menu
+  sidebar-background-color: var(--ha-card-background)
+  sidebar-icon-color: var(--primary-text-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: rgba(var(--system-gray5-dark),0.8)
+  sidebar-selected-icon-color: var(--primary-color)
+  sidebar-selected-text-color: var(--primary-color)
 
-    # Cards
-    ha-card-background: rgba(var(--system-gray6-dark),1) # Primary card background
-    ha-card-border-radius: 10px
-    card-background-color: rgba(var(--system-gray5-dark),1) # Secondary card background
-    paper-card-background-color: var(--ha-card-background)
-    paper-listbox-background-color: var(--primary-background-color)
-    paper-listbox-color: rgba(var(--system-gray3-light)) # Navigation menu selection text; including the text in top right menu
-    card-box-shadow: "0 4px 12px rgba(0,0,0,0.6)"
-    md-list-container-color: var(--ha-card-background) #Settings menu background
+  # Cards
+  ha-card-background: rgba(var(--system-gray6-dark),1) # Primary card background
+  ha-card-border-radius: 10px
+  card-background-color: rgba(var(--system-gray5-dark),1) # Secondary card background
+  paper-card-background-color: var(--ha-card-background)
+  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-color: rgba(var(--system-gray3-light)) # Navigation menu selection text; including the text in top right menu
+  card-box-shadow: "0 4px 12px rgba(0,0,0,0.6)"
+  md-list-container-color: var(--ha-card-background) #Settings menu background
 
-    # Labels
-    label-badge-background-color: rgba(var(--system-gray5-light))
-    label-badge-text-color: rgba(var(--system-gray5-dark))
-    label-badge-red: rgba(var(--system-red-dark))
-    label-badge-green: rgba(var(--system-green-dark))
-    label-badge-blue: rgba(var(--system-blue-dark))
-    label-badge-yellow: rgba(var(--system-yellow-dark))
-    label-badge-gray: rgba(var(--system-grey-dark))
+  # Labels
+  label-badge-background-color: rgba(var(--system-gray5-light))
+  label-badge-text-color: rgba(var(--system-gray5-dark))
+  label-badge-red: rgba(var(--system-red-dark))
+  label-badge-green: rgba(var(--system-green-dark))
+  label-badge-blue: rgba(var(--system-blue-dark))
+  label-badge-yellow: rgba(var(--system-yellow-dark))
+  label-badge-gray: rgba(var(--system-grey-dark))
 
-    # States / icons
-    state-icon-color: var(--primary-text-color)
-    state-icon-active-color: rgba(var(--system-green-dark),1)
-    state-icon-unavailable-color: rgba(var(--system-gray4-dark),1)
+  # States / icons
+  state-icon-color: var(--primary-text-color)
+  state-icon-active-color: rgba(var(--system-green-dark),1)
+  state-icon-unavailable-color: rgba(var(--system-gray4-dark),1)
 
-    # Sliders
-    paper-slider-knob-color: rgba(var(--system-gray6-light),1)
-    paper-slider-knob-start-color: var(--paper-slider-knob-color)
-    paper-slider-pin-color: var(--paper-slider-knob-color)
-    paper-slider-active-color: rgba(var(--system-blue-dark),1)
-    paper-slider-secondary-color: rgba(var(--system-gray4-dark),1)
-    paper-slider-container-color: rgba(255, 255, 255, 0.5)
-    paper-slider-font-color: "#000"
-    ha-slider-background: none !important
+  # Sliders
+  paper-slider-knob-color: rgba(var(--system-gray6-light),1)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: rgba(var(--system-blue-dark),1)
+  paper-slider-secondary-color: rgba(var(--system-gray4-dark),1)
+  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-font-color: "#000"
+  ha-slider-background: none !important
 
-    # Toggles
-    paper-toggle-button-checked-button-color: rgba(var(--system-blue-dark),1)
-    paper-toggle-button-checked-bar-color: rgba(var(--system-blue-dark),0.7)
-    paper-toggle-button-unchecked-button-color: rgba(var(--system-gray4-dark),1)
-    paper-toggle-button-unchecked-bar-color: rgba(var(--system-gray3-dark),0.8)
+  # Toggles
+  paper-toggle-button-checked-button-color: rgba(var(--system-blue-dark),1)
+  paper-toggle-button-checked-bar-color: rgba(var(--system-blue-dark),0.7)
+  paper-toggle-button-unchecked-button-color: rgba(var(--system-gray4-dark),1)
+  paper-toggle-button-unchecked-bar-color: rgba(var(--system-gray3-dark),0.8)
 
-    # Switches
-    switch-checked-color: rgba(var(--system-green-dark),1)
-    switch-checked-track-color: rgba(var(--system-green-dark),1)
-    switch-checked-button-color: rgba(var(--system-gray5-light),1)
-    switch-unchecked-track-color: rgba(var(--system-gray1-dark),1)
-    switch-unchecked-button-color: rgba(var(--system-gray5-light),1)
+  # Switches
+  switch-checked-color: rgba(var(--system-green-dark),1)
+  switch-checked-track-color: rgba(var(--system-green-dark),1)
+  switch-checked-button-color: rgba(var(--system-gray5-light),1)
+  switch-unchecked-track-color: rgba(var(--system-gray1-dark),1)
+  switch-unchecked-button-color: rgba(var(--system-gray5-light),1)
 
-    # Check Boxs
-    mdc-checkbox-unchecked-color: var(--primary-text-color)
-    mdc-radio-unchecked-color: var(--primary-text-color)
+  # Check Boxs
+  mdc-checkbox-unchecked-color: var(--primary-text-color)
+  mdc-radio-unchecked-color: var(--primary-text-color)
 
-    # Inputs / fields
-    input-ink-color: var(--primary-text-color)
-    input-fill-color: transparent
-    input-disabled-fill-color: transparent
-    input-label-ink-color: var(--primary-text-color)
-    input-disabled-ink-color: var(--disabled-text-color)
-    input-dropdown-icon-color: var(--primary-text-color)
-    input-idle-line-color: var(--secondary-text-color)
-    input-hover-line-color: var(--secondary-text-color)
-    input-focused-line-color: var(--primary-color)
-    input-border-radius: 12px
-    input-box-shadow: "0 2px 4px rgba(0,0,0,0.3)"
+  # Inputs / fields
+  input-ink-color: var(--primary-text-color)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-idle-line-color: var(--secondary-text-color)
+  input-hover-line-color: var(--secondary-text-color)
+  input-focused-line-color: var(--primary-color)
+  input-border-radius: 12px
+  input-box-shadow: "0 2px 4px rgba(0,0,0,0.3)"
 
-    # Sections
-    ha-view-sections-column-gap: 8px
-    ha-view-sections-row-gap: 8px
-    
-    # Other
-    paper-dialog-background-color: rgba(var(--system-gray5-dark),1)
-    more-info-header-background: rgba(var(--system-gray4-dark),1)
+  # Sections
+  ha-view-sections-column-gap: 8px
+  ha-view-sections-row-gap: 8px
+  
+  # Other
+  paper-dialog-background-color: rgba(var(--system-gray5-dark),1)
+  more-info-header-background: rgba(var(--system-gray4-dark),1)
 
-    ####################################
-    # CUSTOM CARD VARIABLES
-    ####################################
-    mini-media-player-base-color: var(--primary-background-color)
-    mini-media-player-icon-color: var(--primary-text-color)
+  ####################################
+  # CUSTOM CARD VARIABLES
+  ####################################
+  mini-media-player-base-color: var(--primary-background-color)
+  mini-media-player-icon-color: var(--primary-text-color)
 
-    # Lovelace Button Card - https://github.com/custom-cards/button-card
-    button-card-red: rgba(var(--system-red-light),1)
-    button-card-orange: rgba(var(--system-orange-light),1)
-    button-card-yellow: rgba(var(--system-yellow-light),1)
-    button-card-green: rgba(var(--system-green-light),1)
-    button-card-mint: rgba(var(--system-mint-light),1)
-    button-card-teal: rgba(var(--system-teal-light),1)
-    button-card-cyan: rgba(var(--system-cyan-light),1)
-    button-card-blue: rgba(var(--system-blue-light),1)
-    button-card-indigo: rgba(var(--system-indigo-light),1)
-    button-card-purple: rgba(var(--system-purple-light),1)
-    button-card-pink: rgba(var(--system-pink-light),1)
-    button-card-brown: rgba(var(--system-brown-light),1)
+  # Lovelace Button Card - https://github.com/custom-cards/button-card
+  button-card-red: rgba(var(--system-red-light),1)
+  button-card-orange: rgba(var(--system-orange-light),1)
+  button-card-yellow: rgba(var(--system-yellow-light),1)
+  button-card-green: rgba(var(--system-green-light),1)
+  button-card-mint: rgba(var(--system-mint-light),1)
+  button-card-teal: rgba(var(--system-teal-light),1)
+  button-card-cyan: rgba(var(--system-cyan-light),1)
+  button-card-blue: rgba(var(--system-blue-light),1)
+  button-card-indigo: rgba(var(--system-indigo-light),1)
+  button-card-purple: rgba(var(--system-purple-light),1)
+  button-card-pink: rgba(var(--system-pink-light),1)
+  button-card-brown: rgba(var(--system-brown-light),1)
