@@ -1,9 +1,7 @@
 # Home Assistant Theme: BrezNET iOS 18
-# Mode: auto (switches between light/dark)
 # Source: Apple HIG - https://developer.apple.com/design/human-interface-guidelines/color/
-# Maintainer: Brezlord
 
-BrezNET iOS:
+BrezNET iOS Dark:
   ####################################
   # SYSTEM / SEMANTIC COLORS
   ####################################
@@ -94,7 +92,7 @@ BrezNET iOS:
   secondary-font-family: "SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif"
 
   # Global switch CSS
-  card-mod-theme: "BrezNET iOS"
+  card-mod-theme: "BrezNET iOS Dark"
   card-mod-root: |
     ha-switch {
       --mdc-switch-track-height: 12px;
